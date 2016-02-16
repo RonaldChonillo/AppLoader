@@ -23,6 +23,7 @@ namespace AppLoader
 		/// Crear un nuevo archivo de configuración.
 		/// </summary>
 		/// <returns></returns>
+        /*
 		[
 		//Category("_Extends"),
 		Description("Crear un nuevo archivo de configuración."),
@@ -53,6 +54,7 @@ namespace AppLoader
 			doc.Save( @AppDomain.CurrentDomain.BaseDirectory + @"\" + AppEnvironment.strConfigFile );
 			return 0;
 		}
+        */
 
 		/// <summary>
 		/// Guarda la nueva configuración en el archivo existente.
@@ -105,7 +107,7 @@ namespace AppLoader
             }
             catch ( IOException e )
             {
-                saveConfigXML();
+                //saveConfigXML();
                 sources = "";//AppEnvironment.strDefaultPath;
                 Console.Out.WriteLine ( "Error: " + e.Message );
             }
@@ -134,7 +136,7 @@ namespace AppLoader
             }
             catch ( System.IO.IOException e )
             {
-                saveConfigXML();
+                //saveConfigXML();
                 sources = AppEnvironment.strDefaultPath;
                 Console.Out.WriteLine ( "Error: " + e.Message );
             }

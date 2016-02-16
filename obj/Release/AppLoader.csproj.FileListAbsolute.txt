@@ -7,3 +7,6 @@ D:\sources\DOTNET\AppLoader\obj\Release\AppLoader.csproj.GenerateResource.Cache
 D:\sources\DOTNET\AppLoader\obj\Release\AppLoader.exe
 D:\sources\DOTNET\AppLoader\obj\Release\AppLoader.pdb
 D:\sources\DOTNET\AppLoader\obj\Release\AppLoader.csprojResolveAssemblyReference.cache
+\\192.168.0.104\shared\apps\Loader\Release\bin\AppLoader.exe.config
+\\192.168.0.104\shared\apps\Loader\Release\bin\AppLoader.exe
+\\192.168.0.104\shared\apps\Loader\Release\bin\AppLoader.pdb

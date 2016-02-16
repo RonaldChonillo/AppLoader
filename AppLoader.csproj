@@ -54,7 +54,7 @@
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
-    <OutputPath>\\192.168.0.104\shared\apps\Loader\Release\</OutputPath>
+    <OutputPath>\\192.168.0.104\shared\apps\Loader\Release\bin\</OutputPath>
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -115,6 +115,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="app_02.ico" />
+    <Content Include="cfgApp.xml" />
+    <Content Include="odinlstl.xml" />
     <Content Include="Oxygen-Icons.org-Oxygen-Apps-preferences-desktop-launch-feedback.ico" />
     <BaseApplicationManifest Include="Properties\app.manifest" />
     <None Include="resources\screenshot_578_4.png" />

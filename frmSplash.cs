@@ -25,13 +25,20 @@ namespace AppLoader
 
         private void InvokeChangeItemStatus(Label label, String strText)
         {
-            this.Invoke(this.m_ChangeItemStatus, 
-                        new Object[]
-                        { 
+            try
+            {
+                this.Invoke(this.m_ChangeItemStatus,
+                            new Object[]
+                            {
                             label,
                             strText
-                        }
-                       );
+                            }
+                           );
+            }
+            catch(System.InvalidOperationException e)
+            {
+                Console.WriteLine("Error:" + e.Message);
+            }
         }
 
         private void LChangeItemStatus(Label label, String strText)
@@ -46,6 +53,10 @@ namespace AppLoader
             InitializeComponent();
         }
 
+
+        [        
+        Description("Inicia la ejecucion de la aplicacion principal."),
+        ]
         public void Launch()
         {
             string strCompPath = "";
@@ -62,7 +73,19 @@ namespace AppLoader
             
             if (!File.Exists(AppEnvironment.strConfigFile))
             {
-                AppConfig.saveConfigXML();
+                //AppConfig.saveConfigXML();
+                MessageBox.Show("Error en archivo de configuracion");
+                if (System.Windows.Forms.Application.MessageLoop)
+                {
+                    // WinForms app
+                    System.Windows.Forms.Application.Exit();
+                }
+                else
+                {
+                    // Console app
+                    System.Environment.Exit(1);
+                }
+
             }
 
             strCompPath = AppConfig.getAppPath(test);
