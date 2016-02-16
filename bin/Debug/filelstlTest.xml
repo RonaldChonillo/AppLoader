@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<others>
+		<UpdatePath>\\192.168.0.104\shared\apps\releases\odin\test</UpdatePath>
+		<CompList>ODIN.exe|agendis.txx.txt|EXCEL.EXE|GRAPH.EXE</CompList>
+	</others>
+</root>

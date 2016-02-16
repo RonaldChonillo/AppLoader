@@ -1,0 +1,9 @@
+D:\sources\DOTNET\AppLoader\bin\Debug\AppLoader.exe.config
+D:\sources\DOTNET\AppLoader\bin\Debug\AppLoader.exe
+D:\sources\DOTNET\AppLoader\bin\Debug\AppLoader.pdb
+D:\sources\DOTNET\AppLoader\obj\Debug\AppLoader.frmSplash.resources
+D:\sources\DOTNET\AppLoader\obj\Debug\AppLoader.Properties.Resources.resources
+D:\sources\DOTNET\AppLoader\obj\Debug\AppLoader.csproj.GenerateResource.Cache
+D:\sources\DOTNET\AppLoader\obj\Debug\AppLoader.exe
+D:\sources\DOTNET\AppLoader\obj\Debug\AppLoader.pdb
+D:\sources\DOTNET\AppLoader\obj\Debug\AppLoader.csprojResolveAssemblyReference.cache
