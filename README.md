@@ -5,6 +5,6 @@ Esta aplicacion permite ejecutar un programa despues de verificar si existe actu
 
 Cuando encuentra los archivos crea una ruta carpeta Cache, dentro de la cual almacenara los archivos para su posterior ejecucion.
 
-This aplicacion permite ejecutar las Naciones Unidas Programa Despues de verificar si Existe Actualizaciones del Mismo Dentro De Una ruta de local de rojo.
+This application allows you to run a program after check for updates of the same within a local network path.
 
-CUANDO ENCUENTRA Los Archivos crea Una ruta Carpeta de caché, Dentro de la cual sea almacenara los Archivos para su posterior ejecucion.
+When you find the files you create a folder Cache route within which store the files for later execution.
